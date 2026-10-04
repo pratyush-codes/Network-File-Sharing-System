@@ -1,0 +1,8 @@
+# Debian/Ubuntu packages needed to build and configure the application.
+build-essential
+cmake
+libcrypt-dev
+openssl
+
+# Runtime requirement: Linux with POSIX sockets and pthread support.
+# The programs use only the C++ standard library and system networking APIs.
